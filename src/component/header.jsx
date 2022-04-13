@@ -27,22 +27,25 @@ function header() {
             {/* Brand and toggle get grouped for better mobile display */}
             <div className="navbar-header">
               <button data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" className="navbar-toggle" type="button"> <span className="sr-only">Toggle navigation</span> <span className="icon-bar" /> <span className="icon-bar" /> <span className="icon-bar" /> </button>
-              <div className="logo_top"><a href={logo}><img src={logo} alt="Cloven&Works" width="120px" height="80px"/></a></div>
+              <div className="logo_top"><a href="/"><img src={logo} alt="Cloven&Works" width="120px" height="80px"/></a></div>
             </div>
             {/* Collect the nav links, forms, and other content for toggling */}
             <div id="bs-example-navbar-collapse-1" className="collapse navbar-collapse">
               <ul className="nav navbar-nav navbar-right">
+              <li>
+                
+                <a href="/">Home</a>          </li>
                 <li>
                 
-                <a href="/Quotation">Our Product</a>          </li>
+                <a href="/Product">Our Product</a>          </li>
           
                   
                 <li>
-                  <a href="./quotation">Quotation</a>
+                  <a href="/Quotation">Quotation</a>
                   </li>
              
                 <li>
-                  <a href="site/contact.html">Contact Us</a>          </li>
+                  <a href="/Contact">Contact Us</a>          </li>
                 <li>
                     {/* <a data-fancybox data-src="#trueModal" data-modal="true" href="javascript:;" className="btn-theme">Start Free Trial</a> */}
                   <div style={{display: 'none', maxWidth: '600px'}} id="trueModal" className="popup_contnt download_list">

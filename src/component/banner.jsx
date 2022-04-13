@@ -25,7 +25,7 @@ function banner() {
                       </div>
                     </div>
                     <div className="col-md-2"> <div className="btn-holder">
-                        <a href="sale2020.html" arget="_blank" className="hero-btn btn-holder-sm">Buy Now</a>
+                        <a href="/Contact" arget="_blank" className="hero-btn btn-holder-sm">Buy Now</a>
                       </div></div>
                   </div>
                 </div>
