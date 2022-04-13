@@ -155,7 +155,7 @@ export default function product() {
                   <p>Please submit your questions and a Happiness Officer will contact you shortly!</p>
                   <ul className="help-ul">
                     
-                    <li><a href="site/contact.html" className="btn-theme btn-theme_red">Talk to Sales</a></li> 
+                    <li><a href="/Contact" className="btn-theme btn-theme_red">Talk to Sales</a></li> 
                   </ul>                    
                 </div>
               </div>

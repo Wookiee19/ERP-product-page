@@ -43,7 +43,7 @@ function body() {
                     <li><a href="virtualclassroom.html" target="_blank" className="c_0">5+</a></li>
                   </ul>
                   <div className="btn-holder">
-                    <a href="virtualclassroom.html" target="_blank" className="hero-btn">Know More</a>
+                    <a href="/Contact"  className="hero-btn">Know More</a>
                   </div>
                 </div>
               </div>
