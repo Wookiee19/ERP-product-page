@@ -1,36 +1,26 @@
-import React from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
-} from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import Body from "./body"
+import Header from "./header" 
+import Banner from "./banner"
+import Price from "./price"
+import Whyus from "./whyus"
+import Footer from "./footer"
+import Quotation from "./quotation"
+import Product from "./product"
+import Contact from './contact';
+import Main from "./main"
+import { Routes, Route } from 'react-router-dom'
 
-import Main from "../component/main"
-import Quotation from "../component/quotation"
-import Product from "../component/product"
-
-
-export default function BasicExample() {
+export default function Routes1() {
+  
+ 
   return (
-    <Router>
-      <div>
-       
-
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-        <Routes>
-          <Route path="/Product">
-            <Product />
-          </Route>
-          <Route path="/Quotation">
-            <Quotation />
-          </Route>
-          <Route path="/">
-            <Main />
-          </Route>
-        </Routes>
-      </div>
-    </Router>
+    <Routes>
+      <Route path="/" element={<Main />}></Route>
+      
+      <Route path="/Quotation" element={<Quotation />}></Route>
+      <Route path="/Contact" element={<Contact />}></Route>
+      <Route path="/Product" element={<Product />}></Route>
+    </Routes>
   );
 }
